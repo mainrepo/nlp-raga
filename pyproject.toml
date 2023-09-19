@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "nlp-raga"
+version = "1.0.0"
+description = "The OpenAI based RAG Agent for NLP."
+authors = ["Gaurav J. <shabdsnuti@outlook.com>"]
+readme = "README.md"
+packages = [{include = "nlp-raga.py"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.28.0"
+uvicorn = "^0.23.2"
+fastapi = "^0.103.1"
+
+[tool.poetry.scripts]
+app-srv = "nlp-raga:__main__"
+test-srv = "nlp-raga:__test__"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
