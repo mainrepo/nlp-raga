@@ -44,12 +44,12 @@ poetry run test-srv
 ## <ins>Vital Info</ins>
 1. The project uses poetry (pyproject.toml) for python dependency management.
 2. Here are screenshots of the running service.\
-![Swagger](/images/swagger.png?raw=true) \
+![](images/swagger.png?raw=true) \
 \
-![Test](/images/test.png?raw=true)
+![](images/test.png?raw=true)
 
 3. The below screenshot is from the chat UI for this backend called ***[agent-parag](https://github.com/mainrepo/agent-parag)***.\
-![BasicRun](/images/basic_run.png?raw=true)
+![](images/basic_run.png?raw=true)
 
 ## <ins>License</ins>
 [MIT](https://choosealicense.com/licenses/mit/)
